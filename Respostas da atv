@@ -1,0 +1,68 @@
+1. Imprimir os 5 primeiros números naturais.
+#include <stdio.h>
+#include <math.h>
+int main() {
+    char resposta;
+    printf("Hola, voce quer saber os primeiros 5 numeros naturais? s/n\n");
+    scanf(" %c", &resposta);
+    if(resposta=='s'){
+        int i;
+        for(i=0; i<5; i++){
+            printf("%d ", i);}
+        }else{
+    printf("okay, tenha um otimo dia");
+    }
+}
+2. Imprimir os 5 primeiros números negativos.
+#include <stdio.h>
+#include <math.h>
+int main() {
+    char resposta;
+    printf("Hola, voce quer saber os primeiros 5 numeros negativos? s/n\n");
+    scanf(" %c", &resposta);
+    if(resposta=='s'){
+        int i;
+        for(i=-1; i>-6; i--){
+            printf("%d ", i);}
+        }else{
+    printf("okay, tenha um otimo dia");
+    }
+}
+3. Ler dois números e imprimir a soma deles.
+#include <stdio.h>
+#include <math.h>
+int main() {
+    int num;
+    int num2;
+    int soma;
+    printf("Me fala um numero:\n");
+    scanf("%d", &num);
+    printf("Agora outro numero:\n");
+    scanf("%d", &num2);
+    soma= num+num2;
+    printf("A soma desses numeros é: %d",soma);
+    }
+4. Ler dois números e imprimir a multiplicação entre eles.
+#include <stdio.h>
+#include <math.h>
+int main() {
+    int num;
+    int num2;
+    int multiplicação;
+    printf("Me fala um numero para eu multiplicar com o proximo:\n");
+    scanf("%d", &num);
+    printf("Agora outro numero:\n");
+    scanf("%d", &num2);
+    multiplicação= num*num2;
+    printf("A soma desses numeros é: %d",multiplicação);
+    }
+5. Ler um número e imprimir seu sucessor.
+#include <stdio.h>
+#include <math.h>
+int main() {
+    int num;
+    printf("Me fala um numero para eu botar seu sucessor:\n");
+    scanf("%d", &num);
+    printf("o sucessor desse numero é: %d", num+1);
+}
+6. Ler um número e imprimir sua raiz quadrada
